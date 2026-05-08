@@ -64,3 +64,30 @@ main{
     max-width: 900px;
     margin: auto;
 }
+
+#habilidades{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#habilidades h2 {
+    text-align: center;
+}
+
+.container-habilidades{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card-habilidade {
+    background-color: rgb(225, 232, 235);
+    padding: 28px;
+    width: 180px;
+    border-radius: 10px;
+    text-align: center;
+    min-height: 110px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0) inset;
+}
